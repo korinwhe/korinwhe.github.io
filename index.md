@@ -18,6 +18,17 @@ Here are the data sources or project ideas that I would like to use for the Intr
 ## Where's Schueller? project
 This section's purpose is to embed a **"live"** plotly visualization in my page from your recent analysis of my geolocation data.
 
+# Geolocation Heatmap
+
+This map shows the geolocation data analysis results, including the likely home and farthest traveled point.
+
+<iframe
+    src="/assets/mapbox_visualization_1.html"
+    width="100%"
+    height="600"
+    style="border: none;">
+</iframe>
+
 
 ## Above and Beyond
 This section is empty right now. Unsure of what to exactly include. 
