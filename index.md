@@ -23,7 +23,45 @@ This section's purpose is to embed a **"live"** plotly visualization in my page 
 This map shows the geolocation data analysis results, including the likely home and farthest traveled point.
 
 
-<html src="_includes/vis.html">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Mapbox Map</title>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
+    <style>
+        #map { 
+            height: 500px; 
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Embedded Interactive Map</h1>
+
+    <!-- Map container -->
+    <div id="map"></div>
+
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1Ijoid2hlYXRvbmsiLCJhIjoiY20zNTIybDNmMDVxZjJrcHk5dTYwc3A2MiJ9.9GCP7xBNggy-1gKw_jLvCw';
+
+        var map = new mapboxgl.Map({
+            container: '_includes/vis.html', // ID of the container element
+            style: 'mapbox://styles/mapbox/streets-v11', // Map style
+            center: [-74.5, 40], // Longitude and latitude of the center
+            zoom: 9 // Zoom level
+        });
+
+        // Add navigation controls (optional)
+        map.addControl(new mapboxgl.NavigationControl());
+    </script>
+
+</body>
+</html>
+
 
 
 
