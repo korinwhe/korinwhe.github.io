@@ -28,8 +28,8 @@ This map shows the geolocation data analysis results, including the likely home 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedded Mapbox Map</title>
-    <link href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css" rel="stylesheet">
+    <title>Interactive Map</title>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css">
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js"></script>
     <style>
         #map { 
@@ -40,27 +40,14 @@ This map shows the geolocation data analysis results, including the likely home 
 </head>
 <body>
 
-    <h1>Embedded Interactive Map</h1>
+    <h1>Interactive Map</h1>
 
-    <!-- Map container -->
-    <div id="map"></div>
-
-    <script>
-        mapboxgl.accessToken = 'pk.eyJ1Ijoid2hlYXRvbmsiLCJhIjoiY20zNTIybDNmMDVxZjJrcHk5dTYwc3A2MiJ9.9GCP7xBNggy-1gKw_jLvCw';
-
-        var map = new mapboxgl.Map({
-            container: 'https://korinwhe.github.io/_includes/vis.html', // ID of the container element
-            style: 'mapbox://styles/mapbox/streets-v11', // Map style
-            center: [-74.5, 40], // Longitude and latitude of the center
-            zoom: 9 // Zoom level
-        });
-
-        // Add navigation controls (optional)
-        map.addControl(new mapboxgl.NavigationControl());
-    </script>
+    <!-- Include the vis.html file -->
+    {% include vis.html %}
 
 </body>
 </html>
+
 
 
 
