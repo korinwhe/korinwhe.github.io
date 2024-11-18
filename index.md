@@ -49,7 +49,7 @@ This map shows the geolocation data analysis results, including the likely home 
         mapboxgl.accessToken = 'pk.eyJ1Ijoid2hlYXRvbmsiLCJhIjoiY20zNTIybDNmMDVxZjJrcHk5dTYwc3A2MiJ9.9GCP7xBNggy-1gKw_jLvCw';
 
         var map = new mapboxgl.Map({
-            container: 'https://username.github.io/_includes/vis.html', // ID of the container element
+            container: 'https://korinwhe.github.io/_includes/vis.html', // ID of the container element
             style: 'mapbox://styles/mapbox/streets-v11', // Map style
             center: [-74.5, 40], // Longitude and latitude of the center
             zoom: 9 // Zoom level
