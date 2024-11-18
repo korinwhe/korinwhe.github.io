@@ -22,7 +22,6 @@ This section's purpose is to embed a **"live"** plotly visualization in my page 
 
 This map shows the geolocation data analysis results, including the likely home and farthest traveled point.
 
-#{% include_relative map_visualization_1.html %}
 
 <html src="_includes/vis.html">
 
