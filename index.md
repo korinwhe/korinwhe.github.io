@@ -22,7 +22,6 @@ This section's purpose is to embed a **"live"** Plotly visualization in my page 
 
 This map shows the geolocation data analysis results, including the likely home and farthest traveled point.
 
-<!-- Embed the interactive map using Jekyll's include -->
 {% include vis.html %}
 
 ## Above and Beyond
