@@ -31,7 +31,7 @@ This section's purpose is to embed a **"live"** Plotly visualization in my page 
 
 
 
-#### [_**RQ 1**: Where did Professor Schueller live in Spain?_](####**RQ-1:**)
+#### [**RQ 1**: Where did Professor Schueller live in Spain?_](####**RQ-1:**)
 
 This map shows the geolocation data analysis results, including the likely home and farthest traveled point.
 
