@@ -22,7 +22,8 @@ This section's purpose is to embed a **"live"** Plotly visualization in my page 
 
 This map shows the geolocation data analysis results, including the likely home and farthest traveled point.
 
-<iframe src="_includes/vis.html" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="assets/vis.html" width="100%" height="600px" style="border: none;"></iframe>
+
 
 ## Above and Beyond
 This section is empty right now. Unsure of what to exactly include.
