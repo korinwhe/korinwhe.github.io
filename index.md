@@ -24,7 +24,14 @@ This map shows the geolocation data analysis results, including the likely home 
 
 {% include_relative map_visualization_1.html %}
 
-<iframe src="map_visualization_1.html" width="100%" height="500px"></iframe>
+<style>
+  iframe{
+    width:600px;
+    height:400px
+  }
+</style>
+<iframe 
+  src=
 
 
 
