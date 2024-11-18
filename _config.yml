@@ -3,3 +3,5 @@ description: Various Projects
 show_downloads: true
 google_analytics: 
 theme: jekyll-theme-cayman  # Or any other theme you're using
+plugins:
+  - jekyll-include
