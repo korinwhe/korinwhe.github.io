@@ -23,26 +23,26 @@ Here are the data sources or project ideas that I would like to use for the Intr
 ## [Where's Schueller? Project](#wheres-schueller-project)
 This section's purpose is to embed a **"live"** Plotly visualization in my page from your recent analysis of my geolocation data.
 
-- [_**RQ 1**: Where did Professor Schueller live in Spain?_](#### **RQ 1:**)
-- [_**RQ 2**: What is the farthest place Schueller traveled during his stay in Spain?_](#### **RQ 2**)
-- [**A&B:** Heatmap](#### **A&B**)
+- [_**RQ 1**: Where did Professor Schueller live in Spain?_](####**RQ-1:**)
+- [_**RQ 2**: What is the farthest place Schueller traveled during his stay in Spain?_](####**RQ-2**)
+- [**A&B:** Heatmap](####**A&B**)
 
 
 
 
 
-#### [_**RQ 1**: Where did Professor Schueller live in Spain?_](#### **RQ 1:**)
+#### [_**RQ 1**: Where did Professor Schueller live in Spain?_](####**RQ-1:**)
 
 This map shows the geolocation data analysis results, including the likely home and farthest traveled point.
 
 <iframe src="assets/vis.html" width="100%" height="600px" style="border: none;"></iframe>
 
-#### [_**RQ 2**: What is the farthest place Schueller traveled during his stay in Spain?_](#### **RQ 2**)
+#### [_**RQ 2**: What is the farthest place Schueller traveled during his stay in Spain?_](####**RQ-2**)
 
 
 
 
-#### [**A&B:** Heatmap](#### **A&B**)
+#### [**A&B:** Heatmap](####**A&B**)
 
 ##### [Geolocation Heatmap](#geolocation-heatmap)
 
