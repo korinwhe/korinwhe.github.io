@@ -63,6 +63,6 @@ _You may see an insignificant blue screen... Please use the "+" and "-" sign on 
 
 I'm including my heiarchal clustering assignment for flowers as a notebook. 
 
-[View the Notebook in nbviewer](https://nbviewer.jupyter.org/url-to-your-notebook)
+[View the Notebook in nbviewer](https://github.com/korinwhe/korinwhe.github.io/blob/main/assets/Iris_Hei_copy.ipynb)
 
 
