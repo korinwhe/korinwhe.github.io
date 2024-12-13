@@ -2,11 +2,13 @@
 layout: default
 ---
 # Korin's Projects
-
+-[Geolocating Digital Refugees: Twitter User Behavior During Disasters](./disasters_death)
 ## Table of Contents
 - [Intro to Data Science Projects](#intro-to-data-science-projects)
-- [Where's Schueller? Project](#wheres-schueller-project)
-  - [Geolocation Heatmap](#geolocation-heatmap)
+  - [Where's Schueller? Project](#wheres-schueller-project)
+
+    - [Geolocation Heatmap](#geolocation-heatmap)
+  - [Geolocating Digital Refugees: Twitter User Behavior During Disasters](./disasters_death)
 - [Sociology Thesis](#sociology)
 - [Above and Beyond](#above-and-beyond)
 
