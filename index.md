@@ -13,8 +13,6 @@ layout: default
 - [Sociology Thesis](#sociology)
 - [Above and Beyond](#above-and-beyond)
 
-
-
 ## [Intro to Data Science Projects](#intro-to-data-science-projects)
 This section primarily includes projects from _Intro to Data Science_
 
