@@ -6,7 +6,6 @@ layout: default
 ## Table of Contents
 - [Intro to Data Science Projects](#intro-to-data-science-projects)
   - [Where's Schueller? Project](#wheres-schueller-project)
-
     - [Geolocation Heatmap](#geolocation-heatmap)
   -[Geolocating Digital Refugees: Twitter User Behavior During Disasters](https://korinwhe.github.io/disasters_death)
     - [Geolocating Digital Refugees: Twitter User Behavior During Disasters Project Repo](./disasters_death)
