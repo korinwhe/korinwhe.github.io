@@ -1,15 +1,11 @@
 body {
-    background-image: url('../images/cat_theme.png');
+    background-image: url('/assets/images/cat_theme.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 h1 {
-    background: url('../images/cat_theme.png') no-repeat center;
-    background-size: contain;
-    padding: 20px;
-    text-align: center;
     color: white; /* Adjust text color for contrast */
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 2px 2px 4px black;
 }
