@@ -2,6 +2,10 @@ title: Korin Wheaton, Sociology at Whitman College
 description: Various Projects
 show_downloads: true
 google_analytics: 
-theme: jekyll-theme-cayman  # Or any other theme you're using
+theme: jekyll-theme-cayman 
 plugins:
-  - jekyll-include
+  - jekyll-include  
+
+# Custom CSS
+include:
+  - assets/css/styles.css
