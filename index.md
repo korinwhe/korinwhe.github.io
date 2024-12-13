@@ -2,7 +2,7 @@
 layout: default
 ---
 # Korin's Projects
-- [Geolocating Digital Refugees: Twitter User Behavior During Disasters](https://korinwhe.github.io/project-public)
+- [Geolocating Digital Refugees: Twitter User Behavior During Disasters](https://korinwhe.github.io/disasters_death)
 ## Table of Contents
 - [Intro to Data Science Projects](#intro-to-data-science-projects)
   - [Where's Schueller? Project](#wheres-schueller-project)
