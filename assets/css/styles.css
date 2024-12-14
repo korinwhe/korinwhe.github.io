@@ -1,11 +1,13 @@
-body {
-    background-color: #f5f5f5;
+/* Set the cat image as the header background */
+.header {
     background-image: url('/assets/images/cat_theme.png');
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: cover;  /* Ensure the image covers the entire header */
+    background-position: center;  /* Center the image */
+    background-attachment: fixed;  /* Make the background fixed while scrolling */
 }
 
-h1, h2, h3 {
-    font-family: 'Arial, sans-serif';
-    color: #333;
+/* Optionally, you can add some padding or styling to the header text */
+.header h1 {
+    color: white;  /* Change the text color if necessary */
+    font-size: 3em;  /* Adjust font size */
 }
