@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Korin Wheaton, Sociology at Whitman College
 ---
 ![Cat Theme](assets/images/cat_theme.png)
 # Korin's Projects
