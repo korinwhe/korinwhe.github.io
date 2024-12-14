@@ -1,14 +1,34 @@
-/* Set the cat image as the header background */
-.header {
-    background-image: url('korinwhe.github.io/assets/images/cat_theme.png
-');
-    background-size: cover;  /* Ensure the image covers the entire header */
-    background-position: center;  /* Center the image */
+
+/* Target the header section for the background */
+.site-header {
+    background-image: url('korinwhe.github.io/assets/images/cat_theme.png');  /* Set your cat image */
+    background-size: cover;  /* Ensure the image covers the whole header */
+    background-position: center center;  /* Center the image */
     background-attachment: fixed;  /* Make the background fixed while scrolling */
+    color: white;  /* Adjust text color to ensure it's readable on the background */
 }
 
-/* Optionally, you can add some padding or styling to the header text */
-.header h1 {
-    color: white;  /* Change the text color if necessary */
-    font-size: 3em;  /* Adjust font size */
+/* Optionally, adjust the header height if the image isn't showing properly */
+.site-header {
+    height: 300px;  /* Adjust the height of the header as needed */
+}
+
+/* Ensure the text in the header is visible and looks good on the image */
+.site-header .site-title {
+    font-size: 3em;  /* Adjust the size of the title */
+    font-weight: bold;
+}
+
+/* Make the header nav (menu) text visible if it's hard to see over the background */
+.site-header .site-nav {
+    color: white;  /* Change the color of the navigation links */
+}
+
+.site-header .site-nav a {
+    color: white;  /* Ensure nav links are white for visibility */
+    text-decoration: none;
+}
+
+.site-header .site-nav a:hover {
+    text-decoration: underline;  /* Highlight links when hovered */
 }
