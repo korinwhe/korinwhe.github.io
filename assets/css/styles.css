@@ -1,17 +1,66 @@
+/* Reset basic styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
 .site-header {
-    background-image: url('korinwhe.github.io/assets/images/cat_theme.png');  /* Set your cat image */
-    background-size: cover;  /* Ensure the image covers the whole header */
-    background-position: center center;  /* Center the image */
-    background-attachment: fixed;  /* Make the background fixed while scrolling */
-    color: white;  /* Adjust text color to ensure it's readable on the background */
+    background-image: url('/assets/images/cat_theme.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
 }
 
-/* Ensure the text in the header is visible and looks good on the image */
-.site-header .site-title {
-    font-size: 3em;  /* Adjust the size of the title */
-    font-weight: bold;
+.site-header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
 
-.site-header .site-nav a:hover {
-    text-decoration: underline;  /* Highlight links when hovered */
+.site-header p {
+    font-size: 1.2rem;
+}
+
+/* Navigation styles */
+.site-nav {
+    background-color: #333;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.site-nav ul {
+    list-style: none;
+}
+
+.site-nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.site-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.site-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Content styles */
+.site-content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer styles */
+.site-footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
 }
