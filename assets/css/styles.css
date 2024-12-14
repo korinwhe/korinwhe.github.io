@@ -1,6 +1,7 @@
 /* Set the cat image as the header background */
 .header {
-    background-image: url('/assets/images/cat_theme.png');
+    background-image: url('korinwhe.github.io/assets/images/cat_theme.png
+');
     background-size: cover;  /* Ensure the image covers the entire header */
     background-position: center;  /* Center the image */
     background-attachment: fixed;  /* Make the background fixed while scrolling */
