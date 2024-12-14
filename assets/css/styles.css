@@ -7,7 +7,7 @@ body, h1, h2, h3, p, ul, li, a {
 
 /* Header styles */
 .site-header {
-    background-image: url('/assets/images/cat_theme.png');
+    background-image: url('korinwhe.github.io/assets/images/cat_theme.png');
     background-size: cover;
     background-position: center;
     color: white;
