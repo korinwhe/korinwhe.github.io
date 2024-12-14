@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+![Cat Theme](assets/images/cat_theme.png)
 # Korin's Projects
 
 - [Geolocating Digital Refugees: Twitter User Behavior During Disasters](https://korinwhe.github.io/disasters_death)
