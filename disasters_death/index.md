@@ -70,19 +70,19 @@ Compared to the migration of twitter users' locations over the first four days o
 
 Day 1
 
-<iframe src="disasters_death/assets/mapbox_plot_day_0.html" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="disasters_death/mapbox_plot_day_0.html" width="100%" height="600px" style="border: none;"></iframe>
 
 Day 2
 
-<iframe src="disasters_death/assets/mapbox_plot_day_1.html" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="disasters_death/mapbox_plot_day_1.html" width="100%" height="600px" style="border: none;"></iframe>
 
 Day 3
 
-<iframe src="disasters_death/assets/mapbox_plot_day_2.html" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="disasters_death/mapbox_plot_day_2.html" width="100%" height="600px" style="border: none;"></iframe>
 
 Day 4
 
-<iframe src="disasters_death/assets/mapbox_plot_day_3.html" width="100%" height="600px" style="border: none;"></iframe>
+<iframe src="disasters_death/mapbox_plot_day_3.html" width="100%" height="600px" style="border: none;"></iframe>
   
 * Comparison of migration patterns for three of the disaster types comparing two countries affected by the disaster, one with a low gdp and the other with a high GDP per capita and found the average distance from the epicenter over 8 days.
     ![distance_graph_1](assets/japan_v.png)
