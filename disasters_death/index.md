@@ -4,18 +4,30 @@
 - Korin Wheaton
 - Kayla Musser
 
-## Colab Worksheet Repo Link
+## Table of Contents
+
+- [Colab Worksheet Repo Link](#link)
+- [**Abstract**](#abstract)
+- [**Research Questions:**](#rq)
+- [**Methods & Results:**](#methods)
+  - [**Analysis:**](##analysis)
+- [**Results**](#results)
+- [References Cited](#ref)
+ 
+
+
+## [Colab Worksheet Repo Link](#link)
 [Colab Worksheet](https://github.com/korinwhe/disasters_twitter.git)
 
 **“Geolocating Digital Refugees: Twitter User Behavior During Disasters”**
-## Intro/Abstract
+## [**Abstract**](#abstract)
 
 This project utilizes a Kaggle dataset containing geolocation data from Twitter during fifteen major natural disasters across five types (typhoons, wildfires, earthquakes, winter storms, and thunderstorms). The dataset includes over 3.6 million geo-tagged tweets from 212,735 users, with information about human movement before, during, and after each event. The objective is to analyze how far users migrate during these events, variations in migration distances and timing across disaster types, and the potential influence of socioeconomic factors like GDP on migration behavior.
 
 
 This analysis can aid in predicting migration patterns during disasters, helping improve resource allocation and the effectiveness of emergency alert systems. Additionally, mapping socioeconomic variables like GDP per capita provides further insight into disparities in migration behavior.
 
-## **Research Questions:** 
+## [**Research Questions:**](#rq)
 
 Q1: During disaster events, what is the average distance Twitter users travel away from the epicenter from day one to day 8?
 
@@ -23,7 +35,7 @@ Q2: Can we separate these migration routes among different days?
 
 Q3: Can we compare 3 different disaster events with two different countries with varying GDP per capita and how far in 8 days people are migrating from the epicenter of a disaster?
 
-## **Methods & Results:**
+## [**Methods & Results:**](#methods)
 
 Describe in detail the data preparation and any issues or concerns with the data. Describe your analysis. Present tables and/or visualizations. Tables and visualizations should be accompanied by captions as well as by in-text descriptions.
 
@@ -48,31 +60,31 @@ Describe in detail the data preparation and any issues or concerns with the data
 * Merged GDP per capita data (2013-2016) for affected regions to distinguish movement behaviors based on wealth disparities.   
 * Looked at the highest GDP per capita vs lowest GDP per capita of specific disaster types 
 
-#### **Analysis:**
+### [**Analysis:**](##analysis)
 
 1. Comparative Visualizations:  
    * Compared average distances on each of the first 8 days of all the users from the epicenter of the Wipha typhoon.
-  ![distance_graph](assets/avg_distance_2.png)
+  ![distance_graph](disasters_death/assets/avg_distance_2.png)
 
 * Compared to the migration of twitter users' locations over the first four days of the Wipha typhoon.
 * Day 1
-  <iframe src="assets/mapbox_plot_day_0.html" width="100%" height="600px" style="border: none;"></iframe>
+  <iframe src="disasters_death/assets/mapbox_plot_day_0.html" width="100%" height="600px" style="border: none;"></iframe>
 * Day 2
-  <iframe src="assets/mapbox_plot_day_1.html" width="100%" height="600px" style="border: none;"></iframe>
+  <iframe src="disasters_death/assets/mapbox_plot_day_1.html" width="100%" height="600px" style="border: none;"></iframe>
 * Day 3
-  <iframe src="assets/mapbox_plot_day_2.html" width="100%" height="600px" style="border: none;"></iframe>
+  <iframe src="disasters_death/assets/mapbox_plot_day_2.html" width="100%" height="600px" style="border: none;"></iframe>
 * Day 4
-  <iframe src="assets/mapbox_plot_day_3.html" width="100%" height="600px" style="border: none;"></iframe>
+  <iframe src="disasters_death/assets/mapbox_plot_day_3.html" width="100%" height="600px" style="border: none;"></iframe>
 * Comparison of migration patterns for three of the disaster types comparing two countries affected by the disaster, one with a low gdp and the other with a high GDP per capita and found the average distance from the epicenter over 8 days.
-    ![distance_graph_1](assets/japan_v.png)
-    ![distance_graph_2](assets/bohol_v.png)
-    ![distance_graph_3](assets/brit_v.png)
+    ![distance_graph_1](disasters_death/assets/japan_v.png)
+    ![distance_graph_2](disasters_death/assets/bohol_v.png)
+    ![distance_graph_3](disasters_death/assets/brit_v.png)
   * We can see that in each set of disaster types, there weren't any significant fitted slopes and most of the lines were parallel, showing that over the days, there wasn’t an increase in migration away from the epicenter sites. However, there was a difference in km from the epicenter overall with the different countries, which were compared based on GDP per capita level.   
   * In addition to this, we also did a Pearson’s R test for correlation and calculated the p-values. We got a correlation coefficient of \-0.24 for the correlation of GDP per Capita (USD) against the average distance traveled. We can see that the correlation coefficient shows a weak negative correlation between GDP per Capita (USD) and distance from the disaster epicenter. However, our p-value of the correlation coefficient gives us 0.38661471513906603, which against a significance level of 0.95, shows that our correlation coefficient could be showing an association where there may not be an association due to sampling errors.
   * Here is a graph that shows the slight negative correlation. Take this visual with a grain of salt!
-    ![gdp](assets/gdp_v.png)
+    ![gdp](disasters_death/assets/gdp_v.png)
 
-## Results
+## [**Results**](#results)
 
 **Q1**: The analysis revealed that, on average, Twitter users experiencing the Wipha typhoon in Tokyo traveled approximately 14 kilometers more away from the epicenter between Day 3 and Day 4 from the start of the typhoon. This distance represents the typical movement of users as they responded to the unfolding disaster, although it is important to note that this average figure may mask a wide range of individual behaviors. Some users may have migrated much further from the epicenter, while others remained in relatively close proximity. This average migration distance provides a useful metric for understanding the general movement trends during the early stages of the disaster, but further investigation could uncover variations in migration behavior based on factors such as socioeconomic status, geographic location, or the severity of the disaster. This finding also serves as a baseline for comparing migration patterns across typhoons in a similar geologic and demographic area, helping to assess the consistency of user behavior in wind-variant disaster scenarios. Since we chose just Wipha (Tokyo), we can’t generalize the sample population to other population types and disasters, since Tokyo has a relatively high GDP and is geographically isolated. 
 
@@ -88,7 +100,7 @@ Additionally, the geolocation of tweets may not always be precise due to factors
 
 In the future, we could explore additional disaster types to better understand migration patterns across various scenarios. Expanding the temporal scope to include a longer period, which may reveal long-term trends in migration and recovery. Investigating the influence of socioeconomic factors, including income, education, and urban vs. rural living, on migration behavior could provide deeper insights, while real-time socioeconomic data would enhance accuracy. Analyzing Twitter user demographics (age, gender, etc.) and comparing migration patterns across different social media platforms could offer a more holistic view. Additionally, examining the impact of government disaster response on migration routes and behavior could inform disaster management strategies.
 
-References Cited: 
+## [References Cited](#ref)
 
 Kettle, Anthony James. “Storm Xaver over Europe in December 2013: Overview of Energy Impacts and North Sea Events.” Advances in Geosciences, vol. 54, pp. 137–47, doi:https://doi.org/10.5194/adgeo-54-137-2020. Accessed 7 Dec. 2024\.  
 Holstege, Sean. “Flashback: Historic Phoenix Storm of Sept. 8, 2014.” The Arizona Republic, 7 Sept. 2015, [https://www.azcentral.com/story/news/local/phoenix/2015/09/06/historic-storm-phoenix-2014-flashback/31563463/](https://www.azcentral.com/story/news/local/phoenix/2015/09/06/historic-storm-phoenix-2014-flashback/31563463/).  
