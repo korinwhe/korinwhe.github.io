@@ -8,9 +8,9 @@
 
 - [Colab Worksheet Repo Link](#link)
 - [**Abstract**](#abstract)
-- [**Research Questions:**](#rq)
-- [**Methods & Results:**](#methods)
-  - [**Analysis:**](##analysis)
+- [**Research Questions**](#rq)
+- [**Methods & Results**](#methods)
+  - [**Analysis**](##analysis)
 - [**Results**](#results)
 - [References Cited](#ref)
  
@@ -27,7 +27,7 @@ This project utilizes a Kaggle dataset containing geolocation data from Twitter 
 
 This analysis can aid in predicting migration patterns during disasters, helping improve resource allocation and the effectiveness of emergency alert systems. Additionally, mapping socioeconomic variables like GDP per capita provides further insight into disparities in migration behavior.
 
-## [**Research Questions:**](#rq)
+## [**Research Questions**](#rq)
 
 Q1: During disaster events, what is the average distance Twitter users travel away from the epicenter from day one to day 8?
 
@@ -35,7 +35,7 @@ Q2: Can we separate these migration routes among different days?
 
 Q3: Can we compare 3 different disaster events with two different countries with varying GDP per capita and how far in 8 days people are migrating from the epicenter of a disaster?
 
-## [**Methods & Results:**](#methods)
+## [**Methods & Results**](#methods)
 
 Describe in detail the data preparation and any issues or concerns with the data. Describe your analysis. Present tables and/or visualizations. Tables and visualizations should be accompanied by captions as well as by in-text descriptions.
 
@@ -60,7 +60,7 @@ Describe in detail the data preparation and any issues or concerns with the data
 * Merged GDP per capita data (2013-2016) for affected regions to distinguish movement behaviors based on wealth disparities.   
 * Looked at the highest GDP per capita vs lowest GDP per capita of specific disaster types 
 
-### [**Analysis:**](##analysis)
+### [**Analysis**](##analysis)
 
 1. Comparative Visualizations:  
    * Compared average distances on each of the first 8 days of all the users from the epicenter of the Wipha typhoon.
