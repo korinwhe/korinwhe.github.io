@@ -69,7 +69,7 @@ Describe in detail the data preparation and any issues or concerns with the data
 * Compared to the migration of twitter users' locations over the first four days of the Wipha typhoon.
 * Day 1
 
-  <iframe src="disasters_deathassets/mapbox_plot_day_0.html" width="100%" height="600px" style="border: none;"></iframe>
+  <iframe src="disasters_death/assets/mapbox_plot_day_0.html" width="100%" height="600px" style="border: none;"></iframe>
 * Day 2
 
   <iframe src="assets/mapbox_plot_day_1.html" width="100%" height="600px" style="border: none;"></iframe>
