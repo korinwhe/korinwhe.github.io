@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocating Digital Refugees</title>
+</head>
+<body>
+    <h1>Geolocating Digital Refugees: Twitter User Behavior During Natural Disaster Events</h1>
+
+    <h2>Group Members</h2>
+    <ul>
+        <li>Korin Wheaton</li>
+        <li>Kayla Musser</li>
+    </ul>
+
+    <h2>Table of Contents</h2>
+    <ul>
+        <li><a href="#link">Colab Worksheet Repo Link</a></li>
+        <li><a href="#abstract">Abstract</a></li>
+        <li><a href="#rq">Research Questions</a></li>
+        <li><a href="#methods">Methods &amp; Results</a></li>
+        <li><a href="#analysis">Analysis</a></li>
+        <li><a href="#results">Results</a></li>
+        <li><a href="#ref">References Cited</a></li>
+    </ul>
+
+    <h1>Geolocating Digital Refugees: Twitter User Behavior During Disasters</h1>
+
+    <h2 id="link">Colab Worksheet Repo Link</h2>
+    <p><a href="https://github.com/korinwhe/disasters_twitter.git">Colab Worksheet</a></p>
+
+    <h2 id="abstract">Abstract</h2>
+    <p>
+        This project utilizes a Kaggle dataset containing geolocation data from Twitter during fifteen major natural disasters across five types (typhoons, wildfires, earthquakes, winter storms, and thunderstorms). The dataset includes over 3.6 million geo-tagged tweets from 212,735 users, with information about human movement before, during, and after each event. The objective is to analyze how far users migrate during these events, variations in migration distances and timing across disaster types, and the potential influence of socioeconomic factors like GDP on migration behavior.
+    </p>
+    <p>
+        This analysis can aid in predicting migration patterns during disasters, helping improve resource allocation and the effectiveness of emergency alert systems. Additionally, mapping socioeconomic variables like GDP per capita provides further insight into disparities in migration behavior.
+    </p>
+
+    <h2 id="rq">Research Questions</h2>
+    <ol>
+        <li>During disaster events, what is the average distance Twitter users travel away from the epicenter from day one to day 8?</li>
+        <li>Can we separate these migration routes among different days?</li>
+        <li>Can we compare 3 different disaster events with two different countries with varying GDP per capita and how far in 8 days people are migrating from the epicenter of a disaster?</li>
+    </ol>
+
+    <h2 id="methods">Methods &amp; Results</h2>
+    <h3>Cleaning and Preprocessing:</h3>
+    <ul>
+        <li>Load pandas, os, and geopy.distance plotly.io, scipy, sklearn etc. libraries and modules.</li>
+        <li>Loaded reference dataset and initial datasets for the locations and types of disasters, completed preprocessing, and saved the new dataframe as a CSV file for easier accessibility.</li>
+        <li>Ensured columns for disaster events, latitude, longitude, and timestamps were properly formatted. Renamed columns and string values for clarity.</li>
+        <li>Dropped NA values (there was only one row that was bad).</li>
+        <li>Converted time data to datetime format and validated numerical latitude and longitude values.</li>
+        <li>Used the Haversine formula (via Python's geopy library) to calculate migration distances between coordinates of the epicenter and the user.anon locations, averaging distances per day instead of per timestamp.</li>
+        <li>Segmented data into the start of the disaster (Day 0) until Day 8 by creating a <code>days_since_disaster</code> column based on tweet timestamps.</li>
+    </ul>
+
+    <h3>Integration of External Data:</h3>
+    <ul>
+        <li>Merged GDP per capita data (2013-2016) for affected regions to distinguish movement behaviors based on wealth disparities.</li>
+    </ul>
+
+    <h2 id="analysis">Analysis</h2>
+    <h3>Comparative Visualizations:</h3>
+    <ul>
+        <li>Compared average distances on each of the first 8 days of all the users from the epicenter of the Wipha typhoon.</li>
+        <li>
+            Day 1
+            <iframe src="disasters_death/mapbox_plot_day_0.html" width="100%" height="600px" style="border: none;"></iframe>
+        </li>
+        <li>
+            Day 2
+            <iframe src="disasters_death/mapbox_plot_day_1.html" width="100%" height="600px" style="border: none;"></iframe>
+        </li>
+        <li>
+            Day 3
+            <iframe src="disasters_death/mapbox_plot_day_2.html" width="100%" height="600px" style="border: none;"></iframe>
+        </li>
+        <li>
+            Day 4
+            <iframe src="disasters_death/mapbox_plot_day_3.html" width="100%" height="600px" style="border: none;"></iframe>
+        </li>
+    </ul>
+
+    <h2 id="results">Results</h2>
+    <p>Detailed analysis of findings...</p>
+
+    <h2 id="ref">References Cited</h2>
+    <p>Reference list goes here...</p>
+</body>
+</html>
