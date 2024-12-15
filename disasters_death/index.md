@@ -62,11 +62,11 @@ Describe in detail the data preparation and any issues or concerns with the data
 
 ### [Analysis](##analysis)
 
-1. Comparative Visualizations:  
-   * Compared average distances on each of the first 8 days of all the users from the epicenter of the Wipha typhoon.
+Comparative Visualizations:  
+Compared average distances on each of the first 8 days of all the users from the epicenter of the Wipha typhoon.
   ![distance_graph](assets/avg_distance_2.png)
 
-* Compared to the migration of twitter users' locations over the first four days of the Wipha typhoon.
+Compared to the migration of twitter users' locations over the first four days of the Wipha typhoon.
 
 Day 1
 
