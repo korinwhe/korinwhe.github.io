@@ -4,7 +4,7 @@ layout: default
 ![Cat Theme](assets/images/cat_theme.png)
 # Korin's Projects
 
-- [Geolocating Digital Refugees: Twitter User Behavior During Disasters](https://korinwhe.github.io/disasters_death)
+- [Geolocating Digital Refugees: Twitter User Behavior During Disasters](https://github.com/korinwhe/disasters_twitter.git)
 Data Analysis on Twitter User Data obtained from Kaggle displaying location of Twitter users' migration during various natural disasters
 
 ## Table of Contents
