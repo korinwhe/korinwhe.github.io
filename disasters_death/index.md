@@ -7,11 +7,11 @@
 ## Table of Contents
 
 - [Colab Worksheet Repo Link](#link)
-- [**Abstract**](#abstract)
-- [**Research Questions**](#rq)
-- [**Methods & Results**](#methods)
-  - [**Analysis**](#analysis)
-- [**Results**](#results)
+- [Abstract](#abstract)
+- [Research Questions](#rq)
+- [Methods & Results](#methods)
+  - [Analysis](#analysis)
+- [Results](#results)
 - [References Cited](#ref)
  
 # **“Geolocating Digital Refugees: Twitter User Behavior During Disasters”**
@@ -20,14 +20,14 @@
 [Colab Worksheet](https://github.com/korinwhe/disasters_twitter.git)
 
 
-## [**Abstract**](#abstract)
+## [Abstract](#abstract)
 
 This project utilizes a Kaggle dataset containing geolocation data from Twitter during fifteen major natural disasters across five types (typhoons, wildfires, earthquakes, winter storms, and thunderstorms). The dataset includes over 3.6 million geo-tagged tweets from 212,735 users, with information about human movement before, during, and after each event. The objective is to analyze how far users migrate during these events, variations in migration distances and timing across disaster types, and the potential influence of socioeconomic factors like GDP on migration behavior.
 
 
 This analysis can aid in predicting migration patterns during disasters, helping improve resource allocation and the effectiveness of emergency alert systems. Additionally, mapping socioeconomic variables like GDP per capita provides further insight into disparities in migration behavior.
 
-## [**Research Questions**](#rq)
+## [Research Questions](#rq)
 
 Q1: During disaster events, what is the average distance Twitter users travel away from the epicenter from day one to day 8?
 
@@ -35,7 +35,7 @@ Q2: Can we separate these migration routes among different days?
 
 Q3: Can we compare 3 different disaster events with two different countries with varying GDP per capita and how far in 8 days people are migrating from the epicenter of a disaster?
 
-## [**Methods & Results**](#methods)
+## [Methods & Results](#methods)
 
 Describe in detail the data preparation and any issues or concerns with the data. Describe your analysis. Present tables and/or visualizations. Tables and visualizations should be accompanied by captions as well as by in-text descriptions.
 
@@ -60,7 +60,7 @@ Describe in detail the data preparation and any issues or concerns with the data
 * Merged GDP per capita data (2013-2016) for affected regions to distinguish movement behaviors based on wealth disparities.   
 * Looked at the highest GDP per capita vs lowest GDP per capita of specific disaster types 
 
-### [**Analysis**](##analysis)
+### [Analysis](##analysis)
 
 1. Comparative Visualizations:  
    * Compared average distances on each of the first 8 days of all the users from the epicenter of the Wipha typhoon.
@@ -84,7 +84,7 @@ Describe in detail the data preparation and any issues or concerns with the data
   * Here is a graph that shows the slight negative correlation. Take this visual with a grain of salt!
     ![gdp](disasters_death/assets/gdp_v.png)
 
-## [**Results**](#results)
+## [Results](#results)
 
 **Q1**: The analysis revealed that, on average, Twitter users experiencing the Wipha typhoon in Tokyo traveled approximately 14 kilometers more away from the epicenter between Day 3 and Day 4 from the start of the typhoon. This distance represents the typical movement of users as they responded to the unfolding disaster, although it is important to note that this average figure may mask a wide range of individual behaviors. Some users may have migrated much further from the epicenter, while others remained in relatively close proximity. This average migration distance provides a useful metric for understanding the general movement trends during the early stages of the disaster, but further investigation could uncover variations in migration behavior based on factors such as socioeconomic status, geographic location, or the severity of the disaster. This finding also serves as a baseline for comparing migration patterns across typhoons in a similar geologic and demographic area, helping to assess the consistency of user behavior in wind-variant disaster scenarios. Since we chose just Wipha (Tokyo), we can’t generalize the sample population to other population types and disasters, since Tokyo has a relatively high GDP and is geographically isolated. 
 
