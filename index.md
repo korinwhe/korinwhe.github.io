@@ -13,7 +13,6 @@ layout: default
     - [Geolocation Heatmap](#geolocation-heatmap)
   - [Geolocating Digital Refugees: Twitter User Behavior During Disasters](https://korinwhe.github.io/disasters_death)
     - [Project Repository](./disasters_death)
-- [Sociology Thesis](#sociology-thesis)
 - [Above and Beyond](#above-and-beyond)
 
 ## [Intro to Data Science Projects](#intro-to-data-science-projects)
@@ -53,10 +52,6 @@ Coordinates of farthest point: (36.0743174, -115.1453751)
 _You may see an insignificant blue screen... Please use the "+" and "-" sign on the top right to zoom out and in to view the data points plotted. This map is interactive_ 
 
 <iframe src="assets/vis_2.html" width="100%" height="600px" style="border: none;"></iframe>
-
-## [Sociology Thesis](#sociology)
-
-This section discusses sociology thesis materials
 
 
 #### [**A&B:** Heatmap](####**A&B**)
