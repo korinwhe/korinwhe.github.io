@@ -10,7 +10,7 @@
 - [**Abstract**](#abstract)
 - [**Research Questions**](#rq)
 - [**Methods & Results**](#methods)
-  - [**Analysis**](##analysis)
+  - [**Analysis**](#analysis)
 - [**Results**](#results)
 - [References Cited](#ref)
  
