@@ -4,7 +4,15 @@
 - Korin Wheaton
 - Kayla Musser
 
+## Table of Contents
 
+- [Colab Worksheet Repo Link](#link)
+- [Abstract](#abstract)
+- [Research_Questions](#rq)
+- [Methods_&_Results](#methods)
+- [Analysis](#analysis)
+- [Results](#results)
+- [References_Cited](#ref)
  
 # **“Geolocating Digital Refugees: Twitter User Behavior During Disasters”**
 
