@@ -14,12 +14,12 @@
 - [**Results**](#results)
 - [References Cited](#ref)
  
-
+# **“Geolocating Digital Refugees: Twitter User Behavior During Disasters”**
 
 ## [Colab Worksheet Repo Link](#link)
 [Colab Worksheet](https://github.com/korinwhe/disasters_twitter.git)
 
-**“Geolocating Digital Refugees: Twitter User Behavior During Disasters”**
+
 ## [**Abstract**](#abstract)
 
 This project utilizes a Kaggle dataset containing geolocation data from Twitter during fifteen major natural disasters across five types (typhoons, wildfires, earthquakes, winter storms, and thunderstorms). The dataset includes over 3.6 million geo-tagged tweets from 212,735 users, with information about human movement before, during, and after each event. The objective is to analyze how far users migrate during these events, variations in migration distances and timing across disaster types, and the potential influence of socioeconomic factors like GDP on migration behavior.
