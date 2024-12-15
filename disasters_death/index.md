@@ -8,11 +8,11 @@
 
 - [Colab Worksheet Repo Link](#link)
 - [Abstract](#abstract)
-- [Research Questions](#rq)
-- [Methods & Results](#methods)
+- [Research_Questions](#rq)
+- [Methods_&_Results](#methods)
   - [Analysis](#analysis)
 - [Results](#results)
-- [References Cited](#ref)
+- [References_Cited](#ref)
  
 # **“Geolocating Digital Refugees: Twitter User Behavior During Disasters”**
 
@@ -27,7 +27,7 @@ This project utilizes a Kaggle dataset containing geolocation data from Twitter 
 
 This analysis can aid in predicting migration patterns during disasters, helping improve resource allocation and the effectiveness of emergency alert systems. Additionally, mapping socioeconomic variables like GDP per capita provides further insight into disparities in migration behavior.
 
-## [Research Questions](#rq)
+## [Research_Questions](#rq)
 
 Q1: During disaster events, what is the average distance Twitter users travel away from the epicenter from day one to day 8?
 
@@ -35,7 +35,7 @@ Q2: Can we separate these migration routes among different days?
 
 Q3: Can we compare 3 different disaster events with two different countries with varying GDP per capita and how far in 8 days people are migrating from the epicenter of a disaster?
 
-## [Methods & Results](#methods)
+## [Methods_&_Results](#methods)
 
 Describe in detail the data preparation and any issues or concerns with the data. Describe your analysis. Present tables and/or visualizations. Tables and visualizations should be accompanied by captions as well as by in-text descriptions.
 
@@ -100,7 +100,7 @@ Additionally, the geolocation of tweets may not always be precise due to factors
 
 In the future, we could explore additional disaster types to better understand migration patterns across various scenarios. Expanding the temporal scope to include a longer period, which may reveal long-term trends in migration and recovery. Investigating the influence of socioeconomic factors, including income, education, and urban vs. rural living, on migration behavior could provide deeper insights, while real-time socioeconomic data would enhance accuracy. Analyzing Twitter user demographics (age, gender, etc.) and comparing migration patterns across different social media platforms could offer a more holistic view. Additionally, examining the impact of government disaster response on migration routes and behavior could inform disaster management strategies.
 
-## [References Cited](#ref)
+## [References_Cited](#ref)
 
 Kettle, Anthony James. “Storm Xaver over Europe in December 2013: Overview of Energy Impacts and North Sea Events.” Advances in Geosciences, vol. 54, pp. 137–47, doi:https://doi.org/10.5194/adgeo-54-137-2020. Accessed 7 Dec. 2024\.  
 Holstege, Sean. “Flashback: Historic Phoenix Storm of Sept. 8, 2014.” The Arizona Republic, 7 Sept. 2015, [https://www.azcentral.com/story/news/local/phoenix/2015/09/06/historic-storm-phoenix-2014-flashback/31563463/](https://www.azcentral.com/story/news/local/phoenix/2015/09/06/historic-storm-phoenix-2014-flashback/31563463/).  
