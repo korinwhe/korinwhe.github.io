@@ -64,25 +64,25 @@ Describe in detail the data preparation and any issues or concerns with the data
 
 1. Comparative Visualizations:  
    * Compared average distances on each of the first 8 days of all the users from the epicenter of the Wipha typhoon.
-  ![distance_graph](disasters_death/assets/avg_distance_2.png)
+  ![distance_graph](assets/avg_distance_2.png)
 
 * Compared to the migration of twitter users' locations over the first four days of the Wipha typhoon.
 * Day 1
-  <iframe src="disasters_death/assets/mapbox_plot_day_0.html" width="100%" height="600px" style="border: none;"></iframe>
+  <iframe src="assets/mapbox_plot_day_0.html" width="100%" height="600px" style="border: none;"></iframe>
 * Day 2
-  <iframe src="disasters_death/assets/mapbox_plot_day_1.html" width="100%" height="600px" style="border: none;"></iframe>
+  <iframe src="assets/mapbox_plot_day_1.html" width="100%" height="600px" style="border: none;"></iframe>
 * Day 3
-  <iframe src="disasters_death/assets/mapbox_plot_day_2.html" width="100%" height="600px" style="border: none;"></iframe>
+  <iframe src="assets/mapbox_plot_day_2.html" width="100%" height="600px" style="border: none;"></iframe>
 * Day 4
-  <iframe src="disasters_death/assets/mapbox_plot_day_3.html" width="100%" height="600px" style="border: none;"></iframe>
+  <iframe src="assets/mapbox_plot_day_3.html" width="100%" height="600px" style="border: none;"></iframe>
 * Comparison of migration patterns for three of the disaster types comparing two countries affected by the disaster, one with a low gdp and the other with a high GDP per capita and found the average distance from the epicenter over 8 days.
-    ![distance_graph_1](disasters_death/assets/japan_v.png)
-    ![distance_graph_2](disasters_death/assets/bohol_v.png)
-    ![distance_graph_3](disasters_death/assets/brit_v.png)
+    ![distance_graph_1](assets/japan_v.png)
+    ![distance_graph_2](assets/bohol_v.png)
+    ![distance_graph_3](assets/brit_v.png)
   * We can see that in each set of disaster types, there weren't any significant fitted slopes and most of the lines were parallel, showing that over the days, there wasn’t an increase in migration away from the epicenter sites. However, there was a difference in km from the epicenter overall with the different countries, which were compared based on GDP per capita level.   
   * In addition to this, we also did a Pearson’s R test for correlation and calculated the p-values. We got a correlation coefficient of \-0.24 for the correlation of GDP per Capita (USD) against the average distance traveled. We can see that the correlation coefficient shows a weak negative correlation between GDP per Capita (USD) and distance from the disaster epicenter. However, our p-value of the correlation coefficient gives us 0.38661471513906603, which against a significance level of 0.95, shows that our correlation coefficient could be showing an association where there may not be an association due to sampling errors.
   * Here is a graph that shows the slight negative correlation. Take this visual with a grain of salt!
-    ![gdp](disasters_death/assets/gdp_v.png)
+    ![gdp](assets/gdp_v.png)
 
 ## [Results](#results)
 
