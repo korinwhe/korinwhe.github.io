@@ -12,7 +12,7 @@ layout: default
   - [Where's Schueller? Project](#wheres-schueller-project)
     - [Geolocation Heatmap](#geolocation-heatmap)
   - [Geolocating Digital Refugees: Twitter User Behavior During Disasters](https://korinwhe.github.io/disasters_death)
-    - [Project Repository](./disasters_death)
+    - [Project Repository](https://korinwhe.github.io/disasters_death)
 - [Above and Beyond](#above-and-beyond)
 
 ## [Intro to Data Science Projects](#intro-to-data-science-projects)
