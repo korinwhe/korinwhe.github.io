@@ -111,7 +111,3 @@ In the future, we could explore additional disaster types to better understand m
 
 ## [References_Cited](#ref)
 
-Kettle, Anthony James. “Storm Xaver over Europe in December 2013: Overview of Energy Impacts and North Sea Events.” Advances in Geosciences, vol. 54, pp. 137–47, doi:https://doi.org/10.5194/adgeo-54-137-2020. Accessed 7 Dec. 2024\.  
-Holstege, Sean. “Flashback: Historic Phoenix Storm of Sept. 8, 2014.” The Arizona Republic, 7 Sept. 2015, [https://www.azcentral.com/story/news/local/phoenix/2015/09/06/historic-storm-phoenix-2014-flashback/31563463/](https://www.azcentral.com/story/news/local/phoenix/2015/09/06/historic-storm-phoenix-2014-flashback/31563463/).  
-August 11, 2014 Historic Rainfall. https://www.weather.gov/dtx/081114\_flooding. Accessed 7 Dec. 2024\.  
-Repository, Dryad Digital. “Human Mobility During Natural Disasters.” Kaggle, https://www.kaggle.com/datasets/dryad/human-mobility-during-natural-disasters/data. Accessed 7 Dec. 2024\.
